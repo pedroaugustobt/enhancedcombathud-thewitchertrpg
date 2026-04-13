@@ -1,0 +1,59 @@
+{
+    "id": "enhancedcombathud-TheWitcherTRPG",
+    "title": "Argon - Combat HUD (The Witcher TRPG)",
+    "description": "The Witcher TRPG system integration for Argon - Combat HUD (CORE). Adds a combat HUD with action panels for weapons, magic, verbal combat, and full-round actions.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Pedro",
+            "url": "https://github.com/pedroaugustobt"
+        }
+    ],
+    "esmodules": [
+        "scripts/enhancedcombathud-thewitchertrpg.js"
+    ],
+    "templates": [
+        "templates/witcherWeaponSets.hbs"
+    ],
+    "styles": [
+        "styles/module.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        },
+        {
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "languages/pt-br.json"
+        }
+    ],
+    "relationships": {
+        "requires": [
+            {
+                "id": "enhancedcombathud",
+                "type": "module",
+                "compatibility": {
+                    "minimum": "4.0.0"
+                }
+            }
+        ],
+        "systems": [
+            {
+                "id": "TheWitcherTRPG",
+                "compatibility": {
+                    "minimum": "1.0.0"
+                }
+            }
+        ]
+    },
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "url": "https://github.com/pedroaugustobt/enhancedcombathud-thewitchertrpg",
+    "manifest": "https://github.com/pedroaugustobt/enhancedcombathud-thewitchertrpg/releases/latest/download/module.json",
+    "download": "https://github.com/pedroaugustobt/enhancedcombathud-thewitchertrpg/releases/download/v1.0.0/module.zip"
+}

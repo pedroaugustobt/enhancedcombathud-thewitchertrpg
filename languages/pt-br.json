@@ -1,0 +1,93 @@
+{
+    "WITCHER": {
+        "Settings": {
+            "EnableDisengage": "Ativar Desengajar (Homebrew)",
+            "EnableDisengageHint": "Ativa o botão de ação de rodada completa Desengajar no HUD de Combate. Esta é uma regra Homebrew e está desativada por padrão."
+        },
+        "HUD": {
+            "MainExtraAction": "Ação Principal / Ação Extra",
+            "FullRoundAction": "Ação de Rodada Completa",
+            "VerbalCombat": "Combate Verbal",
+            "Magic": "Magia",
+            "Signs": "Sinais de Bruxeiro",
+            "Spells": "Feitiços",
+            "Hexes": "Hexes",
+            "Rituals": "Rituais",
+            "NoMagic": "Nenhum item mágico",
+            "UseItem": "Usar Item",
+            "Consumables": "Consumíveis",
+            "NoConsumables": "Nenhum item consumível",
+            "Run": "Correr",
+            "ActivelyDodge": "Esquiva Eficaz",
+            "Aim": "Mirar",
+            "Recovery": "Recuperação",
+            "Charge": "Investida",
+            "HoldingAction": "Segurar Ação",
+            "Disengage": "Desengajar",
+            "PassPanel": "Passar",
+            "EndTurn": "Passar Turno",
+            "Skills": "Perícias",
+            "Monster": "Monstro",
+            "Tooltip": {
+                "StaminaCost": "Custo de Estamina",
+                "Range": "Alcance",
+                "Duration": "Duração",
+                "Defense": "Defesa",
+                "Time": "Tempo",
+                "Toxicity": "Toxicidade",
+                "PreparationTime": "Tempo de Preparação",
+                "DifficultyCheck": "Nível de Dificuldade",
+                "Damage": "Dano",
+                "DamageType": "Tipo de Dano",
+                "Reliability": "Confiabilidade"
+            },
+            "Stat": {
+                "HP": "PV",
+                "STA": "EST",
+                "VIG": "VIG",
+                "ADR": "ADR",
+                "LCK": "SOR"
+            },
+            "Brawling": {
+                "Label": "Briga",
+                "UsesManeuver": "usa a manobra",
+                "PushKick": "Empurrar com chute",
+                "PushKickDesc": "Em vez de causar dano, você pode tentar empurrar um alvo para trás com um poderoso chute para a frente. Se você tiver sucesso, você empurra o oponente para trás um número de metros igual ao seu CORPO/3. Você só faz metade do dano, e esse ataque sempre atinge o tronco.",
+                "Disarm": "Desarmar",
+                "DisarmDesc": "Você pode jogar Brigar contra Esquivar/Escapar do seu oponente para tentar desarmá-lo. Dessa forma, diferente de quando você usa a sua arma para desarmar, você pode tentar ou derrubar a arma do oponente (1d6 metros em uma direção aleatória) ou agarrar a arma com a mão livre. Tentar pegar a arma impõe uma penalidade de -3.",
+                "Grapple": "Agarrar",
+                "GrappleDesc": "Você pode fazer um teste para tentar agarrar um alvo. Enquanto estiver agarrado, o alvo não pode se afastar de você e leva -5 para todas as ações físicas. Este é um pré-requisito para imobilizar, estrangular e arremessar. Em cada turno, seu oponente pode tentar um teste de Esquivar/Escapar contra o seu Brigar para se soltar.",
+                "Pin": "Imobilizar",
+                "PinDesc": "Ao agarrar, você pode imobilizar seu adversário. Se você conseguir, o oponente fica imobilizado e não pode se mover ou agir até escapar, o que exige um teste de Esquivar/Escapar contra o seu Brigar.",
+                "Choke": "Estrangular",
+                "ChokeDesc": "Depois de agarrar um alvo, você pode jogar para tentar estrangulá-lo. O oponente estará sufocando até conseguir escapar.",
+                "Throw": "Arremesso",
+                "ThrowDesc": "Quando estiver agarrando um oponente, você pode tentar arremessá-lo . O oponente é arremessado ao chão (prostrado), recebe dano igual ao seu dano de soco e deve fazer um teste de resistência a Atordoamento com -1.",
+                "Trip": "Tropeçar",
+                "TripDesc": "Você pode tentar chutar as pernas do alvo para deixá-lo prostrado. Se você tiver sucesso, o oponente fica prostrado."
+            },
+            "SpecialAttacks": {
+                "Label": "Ataques Especiais",
+                "UsesAttack": "usa o ataque especial",
+                "PommelStrike": "Ataque de Pomo",
+                "PommelStrikeDesc": "Ao fazer um ataque com uma arma, você pode dar um golpe não letal usando o pomo da sua arma. Reduza o dano de sua arma pela metade e considere-o não letal.",
+                "Disarm": "Desarmar",
+                "DisarmDesc": "Ao fazer um ataque com uma arma, você pode tentar um golpe certeiro para  derrubar a arma de um oponente. Se você tiver sucesso, você tira a arma do oponente da mão dele e a joga, 1d6 m, em uma direção aleatória (veja a tabela de Dispersão).",
+                "Trip": "Tropeçar",
+                "TripDesc": "Ao fazer um ataque com uma arma, você pode tentar atingir as pernas do alvo para derrubá-lo. Se você tiver sucesso, o adversário cai de cara no chão.",
+                "Feint": "Finta",
+                "FeintDesc": "Se jogar Ludibriar em vez do seu primeiro ataque rápido, você pode tentar uma Finta. Se o seu oponente não passar num teste de Consciência contra o seu teste de Ludibriar, você pode confundi-lo e fazer o seu segundo ataque com +3."
+            },
+            "RunMsg": "declara uma Ação de Rodada Completa: Correr, podendo se mover até",
+            "ActivelyDodgeMsg": "declara uma Ação de Rodada Completa: Esquiva Eficaz impõe uma penalidade de -2 a qualquer um que tente atacá-lo a curta distância naquela rodada.",
+            "AimMsg": "declara uma Ação de Rodada Completa: Mirar aumenta seu ataque à distância em +3.",
+            "RecoveryMsg": "declara uma Ação de Rodada Completa: Ao usar seu turno para Recuperar o fôlego, você pode recuperar uma quantidade de EST igual a sua estatística de REC",
+            "ChargeMsg": "declara uma Ação de Rodada Completa: Você pode executar uma investida contra um alvo (mín. 6m do alvo para começar uma investida). Uma investida permite que você se mova na velocidade do seu Correr e dê um golpe forte. Este golpe ainda sofre -3 para acertar, mas se o ataque for bloqueado, você pode fazer um teste Físico contra o teste Físico do oponente para deixá-lo prostrado.",
+            "HoldingActionMsg": "declara uma Ação de Rodada Completa: Você pode escolher agir mais tarde na rodada, segurando sua ação. Se você optar por manter sua ação, a ordem de iniciativa continua normalmente, mas você pode entrar e agir antes ou depois de alguém entrar na lista de iniciativas. Se você segurar sua ação até o final da rodada, você deve usar seu turno ou sacrificá-lo. Você não pode segurar sua ação e escolher agir no começo da próxima rodada.",
+            "DisengageMsg": "declara uma Ação de Rodada Completa: Desengajar permite que você se mova até a velocidade do seu Correr para longe de um oponente adjacente sem provocar um ataque de oportunidade.",
+            "Rest": {
+                "Daily": "Descanso Diário"
+            }
+        }
+    }
+}

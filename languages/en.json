@@ -1,0 +1,93 @@
+{
+    "WITCHER": {
+        "Settings": {
+            "EnableDisengage": "Enable Disengage (Homebrew)",
+            "EnableDisengageHint": "Enables the Disengage full-round action button in the Combat HUD. This is a Homebrew rule and is disabled by default."
+        },
+        "HUD": {
+            "MainExtraAction": "Main Action / Extra Action",
+            "FullRoundAction": "Full-Round Action",
+            "VerbalCombat": "Verbal Combat",
+            "Magic": "Magic",
+            "Signs": "Witcher Signs",
+            "Spells": "Spells",
+            "Hexes": "Hexes",
+            "Rituals": "Rituals",
+            "NoMagic": "No magic items",
+            "UseItem": "Use Item",
+            "Consumables": "Consumables",
+            "NoConsumables": "No consumable items",
+            "Run": "Run",
+            "ActivelyDodge": "Actively Dodge",
+            "Aim": "Aim",
+            "Recovery": "Recovery",
+            "Charge": "Charge",
+            "HoldingAction": "Holding Action",
+            "Disengage": "Disengage",
+            "PassPanel": "Pass",
+            "EndTurn": "End Turn",
+            "Skills": "Skills",
+            "Monster": "Monster",
+            "Tooltip": {
+                "StaminaCost": "Stamina Cost",
+                "Range": "Range",
+                "Duration": "Duration",
+                "Defense": "Defense",
+                "Time": "Time",
+                "Toxicity": "Toxicity",
+                "PreparationTime": "Preparation Time",
+                "DifficultyCheck": "Difficulty Check",
+                "Damage": "Damage",
+                "DamageType": "Damage Type",
+                "Reliability": "Reliability"
+            },
+            "Stat": {
+                "HP": "HP",
+                "STA": "STA",
+                "VIG": "VIG",
+                "ADR": "ADR",
+                "LCK": "LCK"
+            },
+            "Brawling": {
+                "Label": "Brawling",
+                "UsesManeuver": "uses the maneuver",
+                "PushKick": "Push Kick",
+                "PushKickDesc": "Instead of doing damage, you can try to push a target back with a powerfull forward kick. If you succeed, you push the opponent back a number of meters equal to your BODY/3. You only do half damage, and this attack always hits the torso.",
+                "Disarm": "Disarm",
+                "DisarmDesc": "You can roll Brawling against your opponent's Dodge/Escape to attempt to disarm an opponent. Unlike disarming with a weapon, you can try to either knock the opponent's weapon away (1d6/2 meters in a random direction) or to grab the weapon with a free hand. Trying to take the weapon imposes a -3 penalty.",
+                "Grapple": "Grapple",
+                "GrappleDesc": "You can roll to grab hold of a target. While grappled, a target cannot move away from you and takes to -5 to all physical actions. This is a prerequisite to pins, chokes, and throws. Each turn, your opponent can attempt a Dodge/Escape roll against your Brawling to slip loose.",
+                "Pin": "Pin",
+                "PinDesc": "While grappling, you can pin your opponent. If you succeed, the opponent is immobilized and cannot move or act until they escape with a Dodge/Escape roll against your Brawling.",
+                "Choke": "Choke",
+                "ChokeDesc": "After grappling a target, you can roll to attempt to choke them. The opponent is suffocating until they are able to escape.",
+                "Throw": "Throw",
+                "ThrowDesc": "While grappling, you can roll to throw your opponent. The opponent is thrown to the ground (prone), takes damage equal to your Punch Damage, and must make a Stun save at -1.",
+                "Trip": "Trip",
+                "TripDesc": "You can attempt to kick the target's legs out from under them and knock them prone. If you succeed, the opponent falls prone."
+            },
+            "SpecialAttacks": {
+                "Label": "Special Attacks",
+                "UsesAttack": "uses the special attack",
+                "PommelStrike": "Pommel Strike",
+                "PommelStrikeDesc": "By making a weapon attack, you can non-lethally strike against a target by bashing with the pommel of your weapon. Halve the weapon's damage roll and apply it as non-lethal.",
+                "Disarm": "Disarm",
+                "DisarmDesc": "By making a weapon attack, you can attempt to knock an opponent's weapon out of their hand with a well-aimed strike. If you succeed, you knock the opponent's weapon from their hand and send it flying, 1d6 meters away in a random direction (see the Scatter table).",
+                "Trip": "Trip",
+                "TripDesc": "By making a weapon attack, you can attempt to strike the target's legs and knock them prone. If you succeed, the opponent is falls flat.",
+                "Feint": "Feint",
+                "FeintDesc": "By rolling Deceit instead of your first fast strike, you can attempt a feint. If your opponent fails an Awareness check against your Deceit roll, you confuse them and can make your second attack at a +3."
+            },
+            "RunMsg": "declares a full-round Run action and may move up to",
+            "ActivelyDodgeMsg": "declares a full-round Actively Dodge action: Actively Dodge imposes a -2 penalty on anyone trying to strike you in melee range for that round.",
+            "AimMsg": "declares a full-round Aim action: Aim increases your ranged attack by +1. You can aim for up to 3 turns in a row, giving you a +3 to your attack.",
+            "RecoveryMsg": "declares a full-round Recovery action: Performs a Recovery Action and recovers",
+            "ChargeMsg": "declares a full-round Charge action: You can make a charge against a target (min. 6m from the target to start a charge). A charge allows you to move at your Run speed and make a strong strike. This strike still suffers -3 to hit, but if the attack is blocked, you can make a Physical test against the opponent's Physical test to knock them prone.",
+            "HoldingActionMsg": "declares a full-round Holding Action: If you choose to hold your action, the initiative order continues as normal but you can jump in and act before or after someone further down the initiative list. If you hold your action until the very end of the round, you must either use your turn or sacrifice it. You cannot hold your action and choose to act at the beginning of the next round.",
+            "DisengageMsg": "declares a full-round Disengage action: You can move up to your Run speed away from an adjacent opponent without provoking an opportunity attack.",
+            "Rest": {
+                "Daily": "Daily Rest"
+            }
+        }
+    }
+}
