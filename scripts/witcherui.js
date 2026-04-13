@@ -2,7 +2,7 @@ import { WitcherPortraitPanel } from "./witcher-portrait-panel.js";
 import { WitcherDrawerPanel } from "./witcher-drawer-panel.js";
 import { WitcherMovementHud, registerMovementHooks } from "./witcher-movement-hud.js";
 import { WitcherWeaponSets } from "./witcher-weapon-sets.js";
-import { WitcherMainActionPanel, WitcherFullRoundActionPanel, WitcherPassPanel, registerPassPanelHooks } from "./witcher-actions-panel.js";
+import { WitcherMainActionPanel, WitcherFullRoundActionPanel, WitcherPassPanel } from "./witcher-actions-panel.js";
 import { WitcherRestHud } from "./witcher-rest-hud.js";
 
 export function initConfig(CoreHUD) {
@@ -21,5 +21,4 @@ export function initConfig(CoreHUD) {
     CoreHUD.defineSupportedActorTypes(["character", "monster"]);
 
     registerMovementHooks();
-    registerPassPanelHooks();
 }
