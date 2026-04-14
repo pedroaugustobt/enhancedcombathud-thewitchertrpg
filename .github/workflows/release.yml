@@ -30,7 +30,9 @@ jobs:
             --exclude "*.git*" \
             --exclude ".github/*" \
             --exclude ".gitignore" \
-            --exclude "*.zip"
+            --exclude "*.zip" \
+            --exclude "docs/*" \
+            --exclude ".prettierrc"
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
