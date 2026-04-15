@@ -35,9 +35,27 @@ export class WitcherItemButton extends ARGON.MAIN.BUTTONS.ItemButton {
         if (item.isConsumable) {
             this._tooltip?._destroy();
             this._tooltip = null;
-            await actor.useItem(item.id);
+
+            const itemId = item.id;
+            const itemUuid = item.uuid;
+            const wasStored = !!item.system?.isStored;
+            const quantity = Number(item.system?.quantity) || 0;
+
+            if (wasStored && quantity <= 1) {
+                const containers = actor.items.filter(
+                    i => Array.isArray(i.system?.content) && i.system.content.includes(itemUuid)
+                );
+                for (const container of containers) {
+                    const cleaned = container.system.content.filter(uuid => uuid !== itemUuid);
+                    await container.update({ "system.content": cleaned });
+                }
+            }
+
+            await actor.useItem(itemId);
+
             return;
         }
+        
         switch (item.type) {
             case "weapon":
                 await actor.weaponAttack(item);
