@@ -86,7 +86,7 @@
             "HoldingActionMsg": "declara uma Ação de Rodada Completa: Você pode escolher agir mais tarde na rodada, segurando sua ação. Se você optar por manter sua ação, a ordem de iniciativa continua normalmente, mas você pode entrar e agir antes ou depois de alguém entrar na lista de iniciativas. Se você segurar sua ação até o final da rodada, você deve usar seu turno ou sacrificá-lo. Você não pode segurar sua ação e escolher agir no começo da próxima rodada.",
             "DisengageMsg": "declara uma Ação de Rodada Completa: Desengajar permite que você se mova até a velocidade do seu Correr para longe de um oponente adjacente sem provocar um ataque de oportunidade.",
             "Rest": {
-                "Daily": "Descanso Diário"
+                "Daily": "Descanso"
             }
         }
     }

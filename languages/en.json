@@ -86,7 +86,7 @@
             "HoldingActionMsg": "declares a full-round Holding Action: If you choose to hold your action, the initiative order continues as normal but you can jump in and act before or after someone further down the initiative list. If you hold your action until the very end of the round, you must either use your turn or sacrifice it. You cannot hold your action and choose to act at the beginning of the next round.",
             "DisengageMsg": "declares a full-round Disengage action: You can move up to your Run speed away from an adjacent opponent without provoking an opportunity attack.",
             "Rest": {
-                "Daily": "Daily Rest"
+                "Daily": "Rest"
             }
         }
     }
