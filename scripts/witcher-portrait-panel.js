@@ -43,8 +43,8 @@ export class WitcherPortraitPanel extends ARGON.PORTRAIT.PortraitPanel {
         if (vigor.max > 0) {
             blocks.push([
                 { text: game.i18n.localize("WITCHER.HUD.Stat.VIG"), color: "#999999" },
-                { text: `${vigor.value}`,  color: "#ce93d8", id: "argon-vigor-value" },
-                { text: ` / ${vigor.max}`, color: "#777777" },
+                { text: `${vigor.max}`,  color: "#ce93d8", id: "argon-vigor-value" },
+                { text: ` / ${vigor.value}`, color: "#777777" },
             ]);
         }
 
