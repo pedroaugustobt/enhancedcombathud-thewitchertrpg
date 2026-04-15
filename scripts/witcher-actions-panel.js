@@ -137,7 +137,7 @@ class WitcherConsumablesPanelButton extends ARGON.MAIN.BUTTONS.ButtonPanelButton
     async _getPanel() {
         const { AccordionPanel, AccordionPanelCategory } = ARGON.MAIN.BUTTON_PANELS.ACCORDION;
 
-        const consumables = this.actor.items.filter(i => i.isConsumable && !i.system.isStored && i.type !== "mutagen");
+        const consumables = this.actor.items.filter(i => i.isConsumable && i.type !== "mutagen");
         const buttons = consumables.map(i => new WitcherItemButton({ item: i }));
 
         const category = buttons.length > 0
